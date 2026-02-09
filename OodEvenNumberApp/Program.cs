@@ -17,5 +17,10 @@ namespace MyApp
 
         static bool IsOod(int value) => ! IsEven(value);
 
+        static void Hello()
+        {
+            Console.WriteLine("Hello World");
+        }
+
     }
 }
