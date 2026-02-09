@@ -13,23 +13,9 @@ namespace MyApp
             Console.WriteLine();
         }
 
-        static bool IsEven(int value)
-        {
-            if (value % 2 == 0)
-            {
-                return true;
-            }
-            else return false;
-        }
+        static bool IsEven(int value) => value % 2 == 0;
 
-        static bool IsOod(int value)
-        {
-            if (value % 2 != 0)
-            {
-                return true;
-            }
-            else return false;
-        }
+        static bool IsOod(int value) => ! IsEven(value);
 
     }
 }
